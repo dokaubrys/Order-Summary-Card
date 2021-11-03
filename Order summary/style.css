@@ -1,0 +1,148 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-image: url(https://raw.githubusercontent.com/hemanuela/order-summary-component-main/main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.card {
+    background-color: white;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 200px;
+    max-width: 460px;
+   
+}
+.card-header{
+    height: 200px;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/hemanuela/order-summary-component-main/main/images/illustration-hero.svg);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-components{
+    /* height: 100%; */
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+.card-body{
+    width: 100%;
+    background-color: white;
+    margin-left: 70px;    
+    margin-right: 70px;  
+    text-align: center;
+    
+}
+
+.card-payment{
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);;
+    margin-left: 60px;    
+    margin-right: 60px; 
+    margin-top: 20px;  
+    border-radius: 15px;
+}
+img {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+.card-payment-content {
+    float: left;
+    padding-left: 15px;
+}
+.anuall-btn {
+    float: right;
+    padding-top: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    line-height: 20px;
+}
+.card-btn{
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 60px;    
+    margin-right: 60px;
+}
+h2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.body-text {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: grey;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.anuall-plan {
+   margin-bottom: 0;
+   margin-top: 20px;
+   font-weight: 800;
+   color: hsl(223, 47%, 23%);
+   font-family: 'Red Hat Display', sans-serif;
+}
+.anuall-year {
+    margin-top: 5px;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    float: left;
+    line-height: 15px;
+}
+.payment-btn{
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: rgba(28, 12, 102, 0.438) 0px 5px 15px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(245, 75%, 52%);
+}
+.payment-btn:hover {
+    background-color: hsla(245, 75%, 52%, 0.712);
+    cursor: pointer;
+}
+.card-cancel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cancel-link {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+}
